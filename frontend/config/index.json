@@ -1,0 +1,10 @@
+{
+    "firebase" : {
+        "apiKey": "AIzaSyDbxUERZDLR9LQUUmUvgkhgbJK2PAC-ZO0",
+        "authDomain": "alert-3d9d8.firebaseapp.com",
+        "projectId": "alert-3d9d8",
+        "storageBucket": "alert-3d9d8.appspot.com",
+        "messagingSenderId": "198488570750",
+        "appId": "1:198488570750:web:399ef02304403038edd12f"
+    }
+}
