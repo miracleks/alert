@@ -97,8 +97,8 @@ export class Add_product extends Component {
                                                                         <li key={i}>
                                                                             <div className="box-input-file">
                                                                                 <input className="upload" type="file" onChange={(e) => this._handleImgChange(e, i)} />
-                                                                                <img src={res.img} style={{ width: 50, height: 50 }} />
-                                                                                <a id="result1" onClick={(e) => this._handleSubmit(e.target.id)}></a>
+                                                                                <img src={res.img} style={{ width: 50, height: 50 }} alt="1024*718" />
+                                                                                <a id="result1" onClick={(e) => this._handleSubmit(e.target.id)} href="/">Click</a>
                                                                             </div>
                                                                         </li>
                                                                     )

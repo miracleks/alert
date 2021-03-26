@@ -16,5 +16,5 @@ export class User_panel extends Component {
     }
 }
 
-export default User_panel
+export default User_panel;
 

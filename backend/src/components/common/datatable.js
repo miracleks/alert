@@ -95,7 +95,7 @@ export class Datatable extends Component {
                 });
         }
 
-        if (multiSelectOption == true) {
+        if (multiSelectOption === true) {
             columns.push(
                 {
                     Header: <button className="btn btn-danger btn-sm btn-delete mb-0 b-r-4"
@@ -118,10 +118,10 @@ export class Datatable extends Component {
                             </span>
                         </div>
                     ),
-                    accessor: key,
-                    style: {
-                        textAlign: 'center'
-                    }
+                    // accessor: key,
+                    // style: {
+                    //     textAlign: 'center'
+                    // }
                 }
             )
         } else {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Breadcrumb from '../common/breadcrumb';
-import { Chart } from "react-google-charts";
+// import { Chart } from "react-google-charts";
 import {
     Line, Bar
 } from 'react-chartjs-2';

@@ -30,7 +30,7 @@ export class Product_list extends Component {
                                                             {(myData.discount === 'on sale' )?<span className="lable4">{myData.discount}</span> : '' }
                                                             </div>
                                                         <div className="front">
-                                                            <a className="bg-size"><img className="img-fluid blur-up bg-img lazyloaded" src={myData.image} /></a>
+                                                            <a className="bg-size" href="/"><img className="img-fluid blur-up bg-img lazyloaded" src={myData.image} alt="1024*718"/></a>
                                                             <div className="product-hover">
                                                                 <ul>
                                                                     <li>
@@ -55,7 +55,7 @@ export class Product_list extends Component {
                                                             <i className="fa fa-star"></i>
                                                             <i className="fa fa-star"></i>
                                                         </div>
-                                                        <a> <h6 >{myData.title}</h6></a>
+                                                        <a href="/"> <h6 >{myData.title}</h6></a>
                                                         <h4 >{myData.price} <del >{myData.discount_price}</del></h4>
                                                         <ul className="color-variant">
                                                             <li className="bg-light0"></li>

@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import LoginTabset from './loginTabset';
-import { ArrowLeft, Sliders } from 'react-feather';
-import { Link } from 'react-router-dom';
+import { ArrowLeft } from 'react-feather';
+// import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import stats from '../../assets/images/dashboard/stats.png';
 import "slick-carousel/slick/slick.css";
@@ -24,7 +24,7 @@ export class Login extends Component {
                                 <div className="col-md-5 p-0 card-left">
                                     <div className="card bg-primary">
                                         <div className="svg-icon">
-                                            <img src={stats} className="Img-fluid" />
+                                            <img src={stats} className="Img-fluid" alt="1024*718"/>
                                         </div>
                                         <Slider className="single-item" {...settings}>
                                             <div>
@@ -56,7 +56,7 @@ export class Login extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <a href="https://react.pixelstrap.com/multikart" target="_blank" className="btn btn-primary back-btn"><ArrowLeft />back</a>
+                            <a href="https://react.pixelstrap.com/multikart" target="_blank" rel="noopener noreferrer" className="btn btn-primary back-btn"><ArrowLeft />back</a>
                         </div>
                     </div>
                 </div>

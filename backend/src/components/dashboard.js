@@ -3,12 +3,12 @@ import Breadcrumb from './common/breadcrumb';
 import { Navigation, Box, MessageSquare, Users, Briefcase, CreditCard, ShoppingCart, Calendar } from 'react-feather';
 import CountUp from 'react-countup';
 import { Chart } from "react-google-charts";
-import CanvasJSReact from '../assets/canvas/canvasjs.react';
+// import CanvasJSReact from '../assets/canvas/canvasjs.react';
 
-import { Pie, Doughnut, Bar, Line } from 'react-chartjs-2';
+import { Bar, Line } from 'react-chartjs-2';
 import { 
-    pieOptions, 
-    doughnutOption, 
+    // pieOptions, 
+    // doughnutOption, 
     lineOptions, 
     buyOption, 
     employeeData, 
@@ -20,8 +20,8 @@ import user1 from '../assets/images/dashboard/user1.jpg';
 import man from '../assets/images/dashboard/man.png';
 import user from '../assets/images/dashboard/user.png';
 import designer from '../assets/images/dashboard/designer.jpg'
-var CanvasJS = CanvasJSReact.CanvasJS;
-var CanvasJSChart = CanvasJSReact.CanvasJSChart;
+// var CanvasJS = CanvasJSReact.CanvasJS;
+// var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 
 export class Dashboard extends Component {
@@ -281,7 +281,7 @@ export class Dashboard extends Component {
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <a href="javascript:void(0)" className="btn btn-primary">View All Orders</a>
+                                        <a href="/" className="btn btn-primary">View All Orders</a>
                                     </div>
                                 </div>
                             </div>

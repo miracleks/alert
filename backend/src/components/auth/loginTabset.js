@@ -49,7 +49,7 @@ export class LoginTabset extends Component {
                                         <input type="checkbox" className="custom-control-input" id="customControlAutosizing" />
                                         <label className="d-block">
                                                     <input className="checkbox_animated" id="chk-ani2" type="checkbox" />
-                                                        Reminder Me <span className="pull-right"> <a href="#" className="btn btn-default forgot-pass p-0">lost your password</a></span>
+                                                        Reminder Me <span className="pull-right"> <a href="/#" className="btn btn-default forgot-pass p-0">lost your password</a></span>
                                                 </label>
                                     </div>
                                 </div>
@@ -59,10 +59,10 @@ export class LoginTabset extends Component {
                                 <div className="form-footer">
                                     <span>Or Login up with social platforms</span>
                                     <ul className="social">
-                                        <li><a className="fa fa-facebook" href=""></a></li>
-                                        <li><a className="fa fa-twitter" href=""></a></li>
-                                        <li><a className="fa fa-instagram" href=""></a></li>
-                                        <li><a className="fa fa-pinterest" href=""></a></li>
+                                        <li><a className="fa fa-facebook" href="/">c</a></li>
+                                        <li><a className="fa fa-twitter" href="/">c</a></li>
+                                        <li><a className="fa fa-instagram" href="/">c</a></li>
+                                        <li><a className="fa fa-pinterest" href="/">c</a></li>
                                     </ul>
                                 </div>
                             </form>
@@ -83,7 +83,7 @@ export class LoginTabset extends Component {
                                         <input type="checkbox" className="custom-control-input" id="customControlAutosizing" />
                                         <label className="d-block">
                                             <input className="checkbox_animated" id="chk-ani2" type="checkbox" />
-                                            I agree all statements in <span><a href="">Terms &amp; Conditions</a></span>
+                                            I agree all statements in <span><a href="/">Terms &amp; Conditions</a></span>
                                         </label>
                                     </div>
                                 </div>
@@ -93,10 +93,10 @@ export class LoginTabset extends Component {
                                 <div className="form-footer">
                                     <span>Or Sign up with social platforms</span>
                                     <ul className="social">
-                                        <li><a className="fa fa-facebook" href=""></a></li>
-                                        <li><a className="fa fa-twitter" href=""></a></li>
-                                        <li><a className="fa fa-instagram" href=""></a></li>
-                                        <li><a className="fa fa-pinterest" href=""></a></li>
+                                        <li><a className="fa fa-facebook" href="/">c</a></li>
+                                        <li><a className="fa fa-twitter" href="/">c</a></li>
+                                        <li><a className="fa fa-instagram" href="/">c</a></li>
+                                        <li><a className="fa fa-pinterest" href="/">c</a></li>
                                     </ul>
                                 </div>
                             </form>

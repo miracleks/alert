@@ -1,10 +1,11 @@
 import React, { Component, Fragment } from 'react'
-import User_panel from './user-panel';
+
 import { Link } from 'react-router-dom';
 import { MENUITEMS } from '../../../constants/menu';
 
 // image import
 import logo from '../../../assets/images/dashboard/multikart-logo.png'
+import User_panel from './user-panel';
 
 export class sidebar extends Component {
 
@@ -34,34 +35,40 @@ export class sidebar extends Component {
                 subItems.children.filter(subSubItems => {
                     if (subSubItems.path === currentUrl)
                         this.setNavActive(subSubItems)
-                })
-            })
+                    return [];
+                });
+                return [];
+            });
+            return [];
         })
     }
 
     setNavActive(item) {
 
         MENUITEMS.filter(menuItem => {
-            if (menuItem != item)
+            if (menuItem !== item)
                 menuItem.active = false
             if (menuItem.children && menuItem.children.includes(item))
                 menuItem.active = true
             if (menuItem.children) {
                 menuItem.children.filter(submenuItems => {
-                    if (submenuItems != item) {
+                    if (submenuItems !== item) {
                         submenuItems.active = false
                     }
                     if (submenuItems.children) {
                         submenuItems.children.map(childItem => {
                             childItem.active = false;
+                            return [];
                         })
                         if (submenuItems.children.includes(item)) {
                             submenuItems.active = true
                             menuItem.active = true
                         }
                     }
+                    return [];
                 })
             }
+            return [];
         })
         item.active = !item.active
 
@@ -73,9 +80,9 @@ export class sidebar extends Component {
     }
 
     render() {
-        const theme = {
-            selectionColor: "#C51162"
-        };
+        // const theme = {
+        //     selectionColor: "#C51162"
+        // };
 
         const mainmenu = this.state.mainmenu.map((menuItem, i) =>
             <li className={`${menuItem.active ? 'active' : ''}`} key={i}>
@@ -83,7 +90,7 @@ export class sidebar extends Component {
                     <div className="sidebar-title">{menuItem.sidebartitle}</div>
                     : ''}
                 {(menuItem.type === 'sub') ?
-                    <a className="sidebar-header " href="javascript:void(0)" onClick={() => this.setNavActive(menuItem)}>
+                    <a className="sidebar-header " href="/" onClick={() => this.setNavActive(menuItem)}>
                         <menuItem.icon />
                         <span>{menuItem.title}</span>
                         <i className="fa fa-angle-right pull-right"></i>
@@ -109,7 +116,7 @@ export class sidebar extends Component {
                         {menuItem.children.map((childrenItem, index) =>
                             <li key={index} className={childrenItem.children ? childrenItem.active ? 'active' : '' : ''}>
                                 {(childrenItem.type === 'sub') ?
-                                    <a href="javascript:void(0)" onClick={() => this.setNavActive(childrenItem)} >
+                                    <a href="/" onClick={() => this.setNavActive(childrenItem)} >
                                         <i className="fa fa-circle"></i>{childrenItem.title} <i className="fa fa-angle-right pull-right"></i></a>
                                     : ''}
 

@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const data = [
     {
         order_id:"142",

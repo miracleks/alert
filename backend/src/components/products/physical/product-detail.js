@@ -154,7 +154,7 @@ export class Product_detail extends Component {
                                     <hr />
                                     <h6 className="product-title size-text">select size
                                         <span className="pull-right">
-                                            <a data-toggle="modal" data-target="#sizemodal" onClick={this.onOpenModal}>size chart</a>
+                                            <a data-toggle="modal" data-target="#sizemodal" onClick={this.onOpenModal} href="/">size chart</a>
                                         </span>
                                     </h6>
                                     <Modal open={open} onClose={this.onCloseModal}>
@@ -164,10 +164,10 @@ export class Product_detail extends Component {
                                     </Modal>
                                     <div className="size-box">
                                         <ul>
-                                            <li className="active"><a href="#">s</a></li>
-                                            <li><a href="#">m</a></li>
-                                            <li><a href="#">l</a></li>
-                                            <li><a href="#">xl</a></li>
+                                            <li className="active"><a href="/#">s</a></li>
+                                            <li><a href="/#">m</a></li>
+                                            <li><a href="/#">l</a></li>
+                                            <li><a href="/#">xl</a></li>
                                         </ul>
                                     </div>
                                     <div className="add-product-form">

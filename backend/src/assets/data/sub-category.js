@@ -20,140 +20,140 @@ import pro6 from '../images/dashboard/product/2.jpg';
 
 const data = [
     {
-        image: <img src={pro23} style={{width:50,height:50}} />,
+        image: <img src={pro23} style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "Steering Wheels",
         price: "$46.00",
         status: <i className="fa fa-circle font-danger f-12" />,
         category: "Electronics"
     },
       {
-        image: <img src={pro1} style={{width:50,height:50}} />,
+        image: <img src={pro1} style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "Motor Vehicle Tyres",
         price: "$671.00",
         status: <i className="fa fa-circle font-success f-12" />,
         category: "Electronics"
     },
     {
-        image: <img src={pro18} style={{width:50,height:50}} />,
+        image: <img src={pro18} style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "Automotive Battery",
         price: "$368.00",
         status: <i className="fa fa-circle font-success f-12" />,
         category: "Electronics"
     },
     {
-        image:<img src={pro21} style={{width:50,height:50}} />,
+        image:<img src={pro21} style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "Apple 6s",
         price: "$725.00",
         status:<i className="fa fa-circle font-warning f-12" />,
         category: "Electronics"
     },
     {
-        image:<img src={pro3} style={{width:50,height:50}} />,
+        image:<img src={pro3} style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "Printer",
         price: "$4825.00",
         status:<i className="fa fa-circle font-danger f-12" />,
         category: "Electronics"
     },
     {
-        image:<img src={tools20} style={{width:50,height:50}} />,
+        image:<img src={tools20} style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "Bucket Seat",
         price: "$25.00",
         status:<i className="fa fa-circle font-warning f-12" />,
         category: "Electronics"
     },
     {
-        image:<img src={pro14} style={{width:50,height:50}} />,
+        image:<img src={pro14} style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "Canon Camera",
         price: "$2461.00",
         status:<i className="fa fa-circle font-warning f-12" />,
         category: "Electronics"
     },
     {
-        image:<img src={pro20} style={{width:50,height:50}} />,
+        image:<img src={pro20} style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "High uality Headphones",
         price: "$761.00",
         status:<i className="fa fa-circle font-success f-12" />,
         category: "Electronics"
     },
     {
-        image:<img src={pro19}  style={{width:50,height:50}}/>,
+        image:<img src={pro19}  style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "Hom Theater Speakers",
         price: "$672.00",
         status:<i className="fa fa-circle font-success f-12" /> ,
         category: "Electronics"
     },
     {
-        image: <img src={pro18} style={{width:50,height:50}} />,
+        image: <img src={pro18} style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "Diamond Ring",
         price: "$237.00",
         status: <i className="fa fa-circle font-success f-12" />,
         category: "Jewellery"
     },
     {
-        image: <img src={jwel12} style={{width:50,height:50}}/>,
+        image: <img src={jwel12} style={{width:50,height:50}} alt="1024*718"/>,
         product_name:"Diamond Nacklace",
         price: "$3579.00",
         status:<i className="fa fa-circle font-danger f-12" />,
         category: "Jewellery"
     },
     {
-        image:<img src={jwel26} style={{width:50,height:50}} />,
+        image:<img src={jwel26} style={{width:50,height:50}} alt="1024*718"/>,
         product_name:"Diamond Earrings",
         price: "$3145.00",
         status:<i className="fa fa-circle font-warning f-12" />,
         category: "Jewellery"
     },
     {
-        image: <img src={pro1} style={{width:50,height:50}} />,
+        image: <img src={pro1} style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "Night lamp",
         price: "$84.00",
         status:<i className="fa fa-circle font-danger f-12" /> ,
         category: "furniture"
     },
     {
-        image:<img src={cat3} style={{width:50,height:50}} />,
+        image:<img src={cat3} style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "men's shoes",
         price: "$67.00",
         status:<i className="fa fa-circle font-danger f-12" /> ,
         category: "shoes"
     },
     {
-        image: <img src={fashion12} style={{width:50,height:50}} />,
+        image: <img src={fashion12} style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "Ledi's red top",
         price: "$234.00",
         status: <i className="fa fa-circle font-danger f-12" />,
         category: "clothes"
     },
     {
-        image: <img src={shoes} style={{width:50,height:50}} />,
+        image: <img src={shoes} style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "atest ledis shoes",
         price: "$357.00",
         status:<i className="fa fa-circle font-warning f-12" /> ,
         category: "shoes"
     },
     {
-        image: <img src={pro06} style={{width:50,height:50}} />,
+        image: <img src={pro06} style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "Woman one pis",
         price: "$682.00",
         status: <i className="fa fa-circle font-danger f-12" />,
         category: "clothes"
     },
     {
-        image: <img src={pro9} style={{width:50,height:50}} />,
+        image: <img src={pro9} style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "Mouse",
         price: "$24.00",
         status:<i className="fa fa-circle font-danger f-12" /> ,
         category: "electronics"
     },
     {
-        image: <img src={pro6} style={{width:50,height:50}} />,
+        image: <img src={pro6} style={{width:50,height:50}} alt="1024*718"/>,
         product_name: "Coffee maker",
         price: "$9721.00",
         status: <i className="fa fa-circle font-danger f-12" />,
         category: "electronics"
     },
     {
-        image: <img src={jwel18} style={{width:50,height:50}} />,
+        image: <img src={jwel18} style={{width:50,height:50}} alt="1024*718"/>,
         product_name:"Diamond Ring",
         price: "$3579.00",
         status:<i className="fa fa-circle font-danger f-12" />,

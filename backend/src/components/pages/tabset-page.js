@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Tabs, TabList, TabPanel, Tab } from 'react-tabs';
 import CKEditors from "react-ckeditor-component";
+
 export class Tabset_page extends Component {
     render() {
         return (
@@ -66,4 +67,4 @@ export class Tabset_page extends Component {
     }
 }
 
-export default Tabset_page
+export default Tabset_page;

@@ -1,5 +1,3 @@
-import React from 'react'
-
 // product Images
 import IMG34 from "../images/product-list/34.jpg"
 import IMG1 from "../images/product-list/1.jpg"

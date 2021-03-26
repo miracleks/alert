@@ -13,7 +13,7 @@ import user2 from '../images/dashboard/user2.jpg'
 export const data = [
     {
         id: "1",
-        vendor: <div><img src={user3} className="img-fluid img-40 rounded-circle blur-up lazyloaded mr-3" /><span>Anna Mull</span></div>,
+        vendor: <div><img src={user3} className="img-fluid img-40 rounded-circle blur-up lazyloaded mr-3" alt="1024*718"/><span>Anna Mull</span></div>,
         products: "1670",
         store_name: "Zotware",
         create_data: "8/10/18",
@@ -22,7 +22,7 @@ export const data = [
     },
     {
         id: "2",
-        vendor: <div ><img src={designer} className="img-fluid img-40 rounded-circle blur-up lazyloaded mr-3" /><span>Colton Clay</span></div>,
+        vendor: <div ><img src={designer} className="img-fluid img-40 rounded-circle blur-up lazyloaded mr-3" alt="1024*718"/><span>Colton Clay</span></div>,
         products: "9710",
         store_name: "Green-Plus",
         create_data: "6/5/18",
@@ -31,7 +31,7 @@ export const data = [
     },
     {
         id: "3",
-        vendor: <div ><img src={boy2} className="img-fluid img-40 rounded-circle blur-up lazyloaded mr-3" /><span>Gray Brody</span></div>,
+        vendor: <div ><img src={boy2} className="img-fluid img-40 rounded-circle blur-up lazyloaded mr-3" alt="1024*718"/><span>Gray Brody</span></div>,
         products: "579",
         store_name: "Conecom",
         create_data: "25/2/18",
@@ -40,7 +40,7 @@ export const data = [
     },
     {
         id: "4",
-        vendor: <div ><img src={user} className="img-fluid img-40 rounded-circle blur-up lazyloaded mr-3" /><span>Lane Skylar</span></div>,
+        vendor: <div ><img src={user} className="img-fluid img-40 rounded-circle blur-up lazyloaded mr-3" alt="1024*718"/><span>Lane Skylar</span></div>,
         products: "8972",
         store_name: "Golddex",
         create_data: "30/3/18",
@@ -49,7 +49,7 @@ export const data = [
     },
     {
         id: "5",
-        vendor: <div ><img src={user1} className="img-fluid img-40 rounded-circle blur-up lazyloaded mr-3" /><span>Lane Skylar</span></div>,
+        vendor: <div ><img src={user1} className="img-fluid img-40 rounded-circle blur-up lazyloaded mr-3" alt="1024*718"/><span>Lane Skylar</span></div>,
         products: "8678",
         store_name: "Plexzap",
         create_data: "4/8/18",
@@ -58,7 +58,7 @@ export const data = [
     },
     {
         id: "6",
-        vendor: <div ><img src={team1} className="img-fluid img-40 rounded-circle blur-up lazyloaded mr-3" /><span>Paige Turner</span></div>,
+        vendor: <div ><img src={team1} className="img-fluid img-40 rounded-circle blur-up lazyloaded mr-3" alt="1024*718"/><span>Paige Turner</span></div>,
         products: "4680",
         store_name: "Finhigh",
         create_data: "11/7/18",
@@ -67,7 +67,7 @@ export const data = [
     },
     {
         id: "7",
-        vendor: <div ><img src={d3} className="img-fluid img-40 rounded-circle blur-up lazyloaded mr-3" /><span>Perez Alonzo</span></div>,
+        vendor: <div ><img src={d3} className="img-fluid img-40 rounded-circle blur-up lazyloaded mr-3" alt="1024*718"/><span>Perez Alonzo</span></div>,
         products: "3476",
         store_name: "Betatech",
         create_data: "17/9/18",
@@ -76,7 +76,7 @@ export const data = [
     },
     {
         id: "8",
-        vendor: <div ><img src={team2} className="img-fluid img-40 rounded-circle blur-up lazyloaded mr-3" /><span>Petey Cruiser</span></div>,
+        vendor: <div ><img src={team2} className="img-fluid img-40 rounded-circle blur-up lazyloaded mr-3" alt="1024*718"/><span>Petey Cruiser</span></div>,
         products: "1670",
         store_name: "Warephase",
         create_data: "8/10/18",
@@ -85,7 +85,7 @@ export const data = [
     },
     {
         id: "9",
-        vendor: <div><img src={user5} className="img-fluid img-40 rounded-circle blur-up lazyloaded  mr-3" /><span>Rowan torres</span></div>,
+        vendor: <div><img src={user5} className="img-fluid img-40 rounded-circle blur-up lazyloaded  mr-3" alt="1024*718"/><span>Rowan torres</span></div>,
         products: "790",
         store_name: "Sunnamplex",
         create_data: "5/6/18",
@@ -94,7 +94,7 @@ export const data = [
     },
     {
         id: "10",
-        vendor: <div><img src={user2} className="img-fluid img-40 rounded-circle blur-up lazyloaded  mr-3" /><span>Woters maxine</span></div>,
+        vendor: <div><img src={user2} className="img-fluid img-40 rounded-circle blur-up lazyloaded  mr-3" alt="1024*718"/><span>Woters maxine</span></div>,
         products: "680",
         store_name: "Kan-code",
         create_data: "15/4/18",
